@@ -4,14 +4,11 @@
     xmlns:browser="http://namespaces.zope.org/browser"
     xmlns:plone="http://namespaces.plone.org/plone">
 
-    <browser:jbot directory="templates" />
-
-    <browser:resourceDirectory name="static" directory="static" />
-
-    <five:registerPackage package="." />
-
     <include package="z3c.jbot" file="meta.zcml" />
 
+    <browser:jbot directory="templates" />
+    <browser:resourceDirectory name="static" directory="static" />
+    <five:registerPackage package="." />
     <plone:static directory="theme" type="theme" />
 
 </configure>
