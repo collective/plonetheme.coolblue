@@ -2,7 +2,7 @@
 Introduction
 ============
 
-The ``plonetheme.coolblue`` package uses the packaging features
+The ``plonetheme.coolblue`` package uses the theming and packaging features
 available in `plone.app.theming`_ to make the `Styleshout`_ theme `Coolblue`_ easily
 available in `Plone 4.1`_.
 
