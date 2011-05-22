@@ -1,7 +1,10 @@
 from setuptools import setup, find_packages
+import os
 
 setup(
     name='plonetheme.coolblue',
+    description='An installable Diazo theme for Plone 4.1',
+    long_description=open('README.rst', 'rb').read(),
     version='0.1.0',
     author='Alex Clark',
     author_email='aclark@aclark.net',
