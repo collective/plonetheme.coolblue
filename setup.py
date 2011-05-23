@@ -10,6 +10,7 @@ setup(
     author_email='aclark@aclark.net',
     url='https://github.com/aclark4life/plonetheme.coolblue',
     packages=find_packages(),
+    include_package_data=True,
     namespace_packages=[
         'plonetheme'
     ],
