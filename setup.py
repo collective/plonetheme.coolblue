@@ -22,8 +22,7 @@ setup(
         "Framework :: Plone",
         "Programming Language :: Python",
     ],
-    entry_points="""
-    [z3c.autoinclude.plugin]
-    target = plone
-    """,
+    entry_points={
+        'z3c.autoinclude.plugin': 'target = plone',
+    }
 )
