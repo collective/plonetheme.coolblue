@@ -1,14 +1,12 @@
 <configure
-    xmlns="http://namespaces.zope.org/zope"
-    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:plone="http://namespaces.plone.org/plone"
     xmlns:browser="http://namespaces.zope.org/browser"
-    xmlns:plone="http://namespaces.plone.org/plone">
+    xmlns="http://namespaces.zope.org/zope">
 
-    <include package="z3c.jbot" file="meta.zcml" />
+    <browser:resourceDirectory
+        directory="static" name="plonetheme.unilluminated" />
 
-    <browser:jbot directory="templates" />
-    <browser:resourceDirectory name="static" directory="static" />
-    <five:registerPackage package="." />
-    <plone:static directory="theme" type="theme" />
+    <plone:static
+        directory="theme" type="theme" />
 
 </configure>

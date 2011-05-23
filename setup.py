@@ -15,8 +15,8 @@ setup(
         'plonetheme'
     ],
     install_requires=[
+        'setuptools',
         'plone.app.theming',
-        'z3c.jbot',
     ],
     classifiers=[
         "Framework :: Plone",
