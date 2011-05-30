@@ -4,7 +4,7 @@
     xmlns="http://namespaces.zope.org/zope">
 
     <browser:resourceDirectory
-        directory="static" name="plonetheme.unilluminated" />
+        directory="static" name="plonetheme.coolblue" />
 
     <plone:static
         directory="theme" type="theme" />

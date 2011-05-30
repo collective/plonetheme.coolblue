@@ -12,7 +12,7 @@
     <copy content='//*[@id="portal-searchbox"]' theme='//*[@id="quick-search"]' />
     <drop theme='//*[@id="slogan"]' />
     <drop theme='//*[@id="rss"]' />
-    <theme href="/Users/aclark/Developer/PSE2011/theme/index.html" />
+    <theme href="index.html" />
     <replace content="/html/head/title" theme="/html/head/title" />
 
 </rules>
