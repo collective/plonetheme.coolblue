@@ -66,6 +66,9 @@ Obviously there is more work to be done. If you want to help, pull requests acce
 License
 -------
 
+This work is licensed under a `Creative Commons Attribution-ShareAlike 3.0 Unported License`_.
+
+.. _`Creative Commons Attribution-ShareAlike 3.0 Unported License`: http://creativecommons.org/licenses/by-sa/3.0/
 .. _`Coolblue`: http://www.styleshout.com/templates/preview/CoolBlue10/index.html
 .. _`plone.app.theming`: http://pypi.python.org/pypi/plone.app.theming
 .. _`Plone 4.1`: http://pypi.python.org/pypi/Plone/4.1rc2
