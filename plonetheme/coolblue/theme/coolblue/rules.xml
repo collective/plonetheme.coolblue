@@ -3,6 +3,12 @@
     xmlns:css="http://namespaces.plone.org/diazo/css"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
+    <theme href="index.html" />
+
+    <prepend content='//*[@id="portal-personaltools"]' theme='//*[@id="quick-search"]' />
+
+    <replace content="/html/head/title" theme="/html/head/title" />
+
     <notheme if-path="presentation_view"/>
     <notheme if-path="source_editor.htm"/>
     <notheme if-path="ploneimage.htm"/>
@@ -17,9 +23,11 @@
     <copy content='//*[@id="portal-globalnav"]' theme='//*[@id="nav"]' />
     <copy content='//*[@id="portal-logo"]' theme='//*[@id="logo-text"]' />
     <copy content='//*[@id="portal-searchbox"]' theme='//*[@id="quick-search"]' />
+
     <drop theme='//*[@id="slogan"]' />
     <drop theme='//*[@id="rss"]' />
-    <theme href="index.html" />
-    <replace content="/html/head/title" theme="/html/head/title" />
+
+    <append content='//*[@id="portal-siteactions"]' theme='//*[@id="footer-outer"]' />
+
 
 </rules>
