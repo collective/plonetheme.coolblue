@@ -51,7 +51,7 @@ That's it!
 
 You should see: 
 
-.. image:: https://github.com/aclark4life/plonetheme.coolblue/raw/master/screenshot.png
+.. image:: https://github.com/collective/plonetheme.coolblue/raw/master/screenshot.png
 
 Help
 ----
