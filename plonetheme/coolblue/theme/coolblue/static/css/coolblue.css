@@ -901,3 +901,9 @@ ul.archive li .post-details a:visited {
 	height:0;
 	content: " ";
 }  
+
+/* Plone */
+
+#content-views li, #contentActionMenus li {
+    display: inline; 
+}

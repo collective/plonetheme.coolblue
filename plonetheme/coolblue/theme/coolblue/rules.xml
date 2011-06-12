@@ -5,9 +5,7 @@
 
     <theme href="index.html" />
 
-    <prepend content='//*[@id="portal-personaltools"]' theme='//*[@id="quick-search"]' />
-
-    <replace content="/html/head/title" theme="/html/head/title" />
+    <before content="/html/head" theme="/html/head" />
 
     <notheme if-path="presentation_view"/>
     <notheme if-path="source_editor.htm"/>
@@ -22,10 +20,14 @@
     <copy content='//*[@id="portal-footer"]' theme='//*[@id="footer-bottom"]' />
     <copy content='//*[@id="portal-globalnav"]' theme='//*[@id="nav"]' />
     <copy content='//*[@id="portal-logo"]' theme='//*[@id="logo-text"]' />
-    <copy content='//*[@id="portal-searchbox"]' theme='//*[@id="quick-search"]' />
 
     <drop theme='//*[@id="slogan"]' />
     <drop theme='//*[@id="rss"]' />
+    <drop theme='//*[@id="quick-search"]' />
+
+    <drop attributes="id" css:content="#portal-globalnav" />
+    <drop attributes="id" css:content="#portal-footer" />
+    <drop attributes="class" css:content=".cell"/>
 
     <append content='//*[@id="portal-siteactions"]' theme='//*[@id="footer-outer"]' />
 
