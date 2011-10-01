@@ -29,7 +29,7 @@ a:link.more, a:visited.more {
 	padding: 6px 8px;
 	border: 1px solid #2177A5;
 	background-color: #227bad;
-    text-transform: lowercase;
+	text-transform: lowercase;
 	text-decoration: none;
 	font-weight: bold;
 	color: #fff;
@@ -285,7 +285,8 @@ fieldset.search {
 /*  navigation  */
 #header #nav {
 	position: absolute;
-	left: 15px;	top: 25px;
+	left: 15px;
+	top: 25px;
 	margin: 0; padding: 0;
 	width: 750px;
 }
@@ -311,7 +312,7 @@ fieldset.search {
 	border: none;
 	color: #fff;
 }
-#header #nav ul li#current a {
+#header #nav ul li.selected a {
 	background: transparent url(../images/current.jpg) no-repeat center bottom;
 	color: #fff;
 }
@@ -357,9 +358,9 @@ fieldset.search {
 #main h2 a { color: #333; }
 #sidebar h3 {
 	font: bold 1.7em 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, Sans-Serif;
-   letter-spacing: .2px;
+	letter-spacing: .2px;
 	margin-left: 10px;
-   color: #333;
+	color: #333;
 }
 #sidebar h3, #sidebar p {
 	margin-left: 10px;
