@@ -15,7 +15,7 @@
     <notheme if-path="attributes.htm"/>
 
     <copy content='//*[@id="portal-column-content"]' theme='//*[@id="main"]' />
-    <copy content='//*[@id="portal-column-one"]' theme='//*[@id="sidebar"]' />
+    <copy content='//*[@id="portal-column-two"]' theme='//*[@id="sidebar"]' />
     <copy content='//*[@id="portal-colophon"]' theme='//*[@id="footer-outer"]' />
     <copy content='//*[@id="portal-footer"]' theme='//*[@id="footer-bottom"]' />
     <copy content='//*[@id="portal-globalnav"]' theme='//*[@id="nav"]' />
