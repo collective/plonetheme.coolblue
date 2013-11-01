@@ -4,7 +4,7 @@ Introduction
 
 The ``plonetheme.coolblue`` package uses the **theming** and **packaging** features
 available in `plone.app.theming`_ to make the `Styleshout`_ theme `Coolblue`_ easily
-available in `Plone 4.1`_.
+available in `Plone 4.1`_ or higher.
 
 Installation
 ------------
@@ -25,7 +25,7 @@ If you are an end user, you might enjoy installation via zip file import.
 1. Download the zip file: http://plone.org/products/plonetheme.coolblue/releases/0.1.0/coolblue.zip
 2. Import the theme from the Diazo theme control panel.
 
-.. image:: https://github.com/aclark4life/plonetheme.unilluminated/raw/master/screenshot4.png
+.. image:: https://github.com/collective/plonetheme.unilluminated/raw/master/screenshot4.png
 
 Buildout
 ~~~~~~~~
@@ -45,7 +45,7 @@ Select theme
 
 Select and enable the theme from the Diazo control panel.
 
-.. image:: https://github.com/aclark4life/plonetheme.unilluminated/raw/master/screenshot3.png
+.. image:: https://github.com/collective/plonetheme.unilluminated/raw/master/screenshot3.png
 
 That's it!
 
