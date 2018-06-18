@@ -4,11 +4,13 @@ Changelog
 0.1.2 (unreleased)
 ------------------
 
+- Added quick installer support [macagua]
+
 - Added manifest file and preview file for diazo theme [macagua]
 
 - Update information about this package [macagua]
 
-- Added more keywords and strings classifiers items for this packages [macagua]
+- Added more keywords and strings classifiers items for this package [macagua]
 
 0.1.1 (2011-06-12)
 ------------------
