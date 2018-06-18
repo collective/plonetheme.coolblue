@@ -4,6 +4,8 @@ Changelog
 0.1.2 (unreleased)
 ------------------
 
+- Added improvements about README file [macagua]
+
 - Updated diazo theme manifest file [macagua]
 
 - Added quick installer support [macagua]
