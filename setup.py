@@ -3,12 +3,14 @@ import os
 
 setup(
     name='plonetheme.coolblue',
-    description='An installable Diazo theme for Plone 4.1',
+    description='Coolblue, is an installable Diazo theme for Plone 4',
     long_description=open("README.rst").read() + "\n" +
         open(os.path.join("docs", "HISTORY.txt")).read(),
-    version='0.1.1',
+    version='0.1.2',
     author='Alex Clark',
     author_email='aclark@aclark.net',
+    maintainer='Leonardo Caballero',
+    maintainer_email='leonardocaballero@gmail.com',
     url='https://github.com/collective/plonetheme.coolblue',
     packages=find_packages(),
     include_package_data=True,
@@ -19,6 +21,8 @@ setup(
         'setuptools',
         'plone.app.theming',
     ],
+    # Get more strings from
+    # https://pypi.org/pypi?:action=list_classifiers
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Environment :: Web Environment',
@@ -26,6 +30,7 @@ setup(
         'Framework :: Plone :: 4.1',
         'Framework :: Plone :: 4.2',
         'Framework :: Plone :: 4.3',
+        'Framework :: Plone :: Theme',
         'Framework :: Zope2',
         'Framework :: Zope3',
         'Intended Audience :: Developers',
