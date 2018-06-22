@@ -18,7 +18,7 @@
   <genericsetup:registerProfile
       name="uninstall"
       directory="profiles/uninstall"
-      title="plonetheme.coolblue: Uninstall profile for Plone 4 Diazo Theme"
+      title="plonetheme.coolblue Uninstall"
       description="Uninstall the plonetheme.coolblue package"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
